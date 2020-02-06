@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+  <category>
+      <pattern>WHAT IS YOUR NAME</pattern>
+      <template>My name is Bob. Please Like Me Lol</template>
+  </category>
+  <category>
+      <pattern>THANK YOU</pattern>
+      <template>You are so beautiful. Thank you!</template>
+  </category>
+  
+  <category>
+      <pattern>HOW OLD ARE YOU</pattern>
+      <template>I am 5 mins old.</template>
+  </category>
+  <category>
+      <pattern>WHERE DO YOU LIVE</pattern>
+      <template>I live in Internet World.</template>
+  </category>
+  <category>
+      <pattern>PLEASE SAY THANK YOU</pattern>
+      <template>No I won't</template>
+  </category>
+  <category>
+      <pattern>Hello</pattern>
+      <template>
+          <button>
+              <text>Please press this</text>
+              <url>http://www.facebook.com</url>
+          </button>
+      </template>
+  </category>
+  
+  
+
+</aiml>
